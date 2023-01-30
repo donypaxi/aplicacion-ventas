@@ -1,13 +1,12 @@
-import imagen1 from '../src/assets/img/imagen1.jpg'
+// import { Inicio } from "./page/Inicio"
+
+import { IniciarSesion } from "./page/IniciarSesion"
+
 export const App = () => {
   return (
     <>
-      <div>
-        <img src={imagen1} alt="" />
-        <h2>espacio de imagen</h2>
-      </div>
-      <h1>app principal</h1>
-
+      {/* <Inicio/> */}
+      <IniciarSesion/>
     </>
   )
 }
