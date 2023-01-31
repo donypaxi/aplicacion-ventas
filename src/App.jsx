@@ -1,14 +1,18 @@
 // import { Inicio } from "./page/Inicio"
 // import { IniciarSesion } from "./page/IniciarSesion"
+// import { AgregarProducto } from "./page/AgregarProducto"
+// import { PageInicio } from "./page/PageInicio"
 
-import { AgregarProducto } from "./page/AgregarProducto"
+import { PageBalance } from "./page/PageBalance"
 
 export const App = () => {
   return (
     <>
       {/* <Inicio/> */}
       {/* <IniciarSesion/> */}
-      <AgregarProducto/>
+      {/* <AgregarProducto/> */}
+      {/* <PageInicio/> */}
+      <PageBalance/>
     </>
   )
 }

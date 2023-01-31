@@ -35,7 +35,7 @@ export const AgregarProducto = () => {
                                 </svg>
                         </div>
 
-                        <label className="text-sm" htmlFor="">Cantidad disponible</label>
+                        <label className="text-sm">Cantidad disponible</label>
                         <div className="text-xl border-2 border-slate-400 rounded-2xl flex justify-evenly items-center px-2 mr-6 bg-white h-10">
                             <button className="">+</button>
                             <div className="px-5 border-x-2 border-slate-400" >0</div>

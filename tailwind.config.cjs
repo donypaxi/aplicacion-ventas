@@ -14,7 +14,8 @@ module.exports = {
         amarillo: '#F2C84B',
         camara:'#61788C',
         fondo1:'#F0F0F2',
-        fondo2:'#E3E3E6'
+        fondo2:'#E3E3E6',
+        fondo3:'#141E26'
       }
     },    
   },
