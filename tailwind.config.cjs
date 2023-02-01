@@ -11,7 +11,7 @@ module.exports = {
         blanco: '#ffff',
         gris: '#515659',
         enlace:'#1473e6',
-        amarillo: '#F2C84B',
+        amarillo: '#FED74C',
         camara:'#61788C',
         fondo1:'#F0F0F2',
         fondo2:'#E3E3E6',

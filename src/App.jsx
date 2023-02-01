@@ -4,7 +4,9 @@
 // import { PageInicio } from "./page/PageInicio"
 // import { PageBalance } from "./page/PageBalance"
 
-import { PageDeudas } from "./page/PageDeudas"
+import { PageInventario } from "./page/PageInventario"
+
+// import { PageDeudas } from "./page/PageDeudas"
 
 export const App = () => {
   return (
@@ -14,7 +16,8 @@ export const App = () => {
       {/* <AgregarProducto/> */}
       {/* <PageInicio/> */}
       {/* <PageBalance/> */}
-      <PageDeudas/>
+      {/* <PageDeudas/> */}
+      <PageInventario/>
     </>
   )
 }

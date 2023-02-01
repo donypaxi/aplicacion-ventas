@@ -16,7 +16,7 @@ export const PageDeudas = () => {
                     <p className="text-ms text-center">Propiedades</p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-2 my-5 text-sm font-bold ">
+                <div className=" grid grid-cols-2 gap-2 my-5 text-sm font-bold ">
                     <div className="border-b-green-600 border-b-8 bg-blanco px-10 py-2 flex flex-col justify-center items-center rounded-xl ">
                         <p><span className="rounded-full bg-verde text-blanco px-1">0</span> Por cobrar</p>
                         <p>S/ 0</p>
