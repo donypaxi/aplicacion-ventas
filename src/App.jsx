@@ -2,8 +2,9 @@
 // import { IniciarSesion } from "./page/IniciarSesion"
 // import { AgregarProducto } from "./page/AgregarProducto"
 // import { PageInicio } from "./page/PageInicio"
+// import { PageBalance } from "./page/PageBalance"
 
-import { PageBalance } from "./page/PageBalance"
+import { PageDeudas } from "./page/PageDeudas"
 
 export const App = () => {
   return (
@@ -12,7 +13,8 @@ export const App = () => {
       {/* <IniciarSesion/> */}
       {/* <AgregarProducto/> */}
       {/* <PageInicio/> */}
-      <PageBalance/>
+      {/* <PageBalance/> */}
+      <PageDeudas/>
     </>
   )
 }
