@@ -1,3 +1,4 @@
+import { Encabezado } from "../components/Encabezado"
 import { Navegacion } from "../components/Navegacion"
 
 export const PageInicio = () => {
@@ -5,16 +6,7 @@ export const PageInicio = () => {
     <>
        <div className="relative h-screen bg-amarillo flex flex-col justify-center items-center">
             {/* titulo */}
-            <div>
-                <h2 className="h-auto mt-5 font-bold">Computadoras</h2>
-                <p className="text-center"> propietario</p>
-            </div>
-            <div className='absolute left-0 top-0 ml-5 mt-5 h-auto p-2 bg-blanco rounded-full '>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-
-            </div>
+            <Encabezado/>
 
             {/* menu gestiona tu negocio */}
             <div className="h-full  w-full rounded-t-3xl bg-fondo2 container mx-auto px-4">
